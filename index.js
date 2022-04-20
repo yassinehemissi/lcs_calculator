@@ -1,4 +1,4 @@
-const TOTAL_COEFF = 11.5;
+const TOTAL_COEFF = 15;
 
 let inputs = document.querySelectorAll("input");
 let moy = 0;
@@ -14,6 +14,8 @@ let coeffs = {
   TechMul: 1.5,
   Anglais: 1,
   TechCom: 1,
+  SL: 2,
+  SE: 1.5
 };
 
 function calculate() {

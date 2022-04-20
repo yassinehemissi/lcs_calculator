@@ -17,12 +17,14 @@ body {
 }
 
 body {
-  @include flex(column, center, center);
+  @include flex(column, flex-start, center);
   background-color: #14213d;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+
 header {
+  margin-top: 30px;
   h2,
   h3 {
     color: #fca311;
@@ -38,7 +40,6 @@ main {
   @include flex(column, flex-start, flex-start);
   div {
     @include flex(column, center, flex-start);
-
     label {
       font-size: 1.2rem;
       color: white;
@@ -63,5 +64,6 @@ main {
     background-color: #fca311;
     color: white;
     font-weight: 400;
+    margin-bottom: 30px;
   }
 }
